@@ -1,4 +1,4 @@
-# itunesbackup2hashcat.py
+# itunesbackup2hashcat
 
 A Python tool to extract cryptographic material from iTunes backup files and generate [hashcat](https://hashcat.net) compatible hashes for backup password recovery.
 
