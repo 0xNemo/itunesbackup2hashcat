@@ -2,7 +2,7 @@
 
 A Python dirty tool to extract cryptographic material from iTunes backup files and generate [hashcat](https://hashcat.net) compatible hashes for backup password recovery.
 
-Inspired by [itunes_backup2hashcat.pl](https://github.com/philsmd/itunes_backup2hashcat) by philsmd.
+Inspired by [itunes_backup2hashcat.pl](https://github.com/philsmd/itunes_backup2hashcat) by philsmd, i didn't want to use perl
 
 ---
 
