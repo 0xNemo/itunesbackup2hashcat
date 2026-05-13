@@ -19,7 +19,7 @@ iTunes backups encrypt their content using a keybag stored in `Manifest.plist`. 
 
 ## Requirements
 
-- Python 3.6+
+- Python
 - No external dependencies (uses stdlib only: `plistlib`, `argparse`, `os`)
 
 
