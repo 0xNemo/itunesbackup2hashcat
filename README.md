@@ -10,11 +10,11 @@ Inspired by [itunes_backup2hashcat.pl](https://github.com/philsmd/itunes_backup2
 
 iTunes backups encrypt their content using a keybag stored in `Manifest.plist`. This tool parses the keybag's TLV (Tag-Length-Value) binary structure to extract:
 
-- **WPKY** — Wrapped class key (40 bytes), encrypted with the backup password
-- **SALT** — PBKDF2-SHA1 salt (20 bytes)
-- **ITER** — PBKDF2-SHA1 iteration count
-- **DPIC** — PBKDF2-SHA256 iteration count *(iOS 10.2+ only)*
-- **DPSL** — PBKDF2-SHA256 salt *(iOS 10.2+ only)*
+- **WPKY** - Wrapped class key (40 bytes), encrypted with the backup password
+- **SALT** - PBKDF2-SHA1 salt (20 bytes)
+- **ITER** - PBKDF2-SHA1 iteration count
+- **DPIC** - PBKDF2-SHA256 iteration count *(iOS 10.2+ only)*
+- **DPSL** - PBKDF2-SHA256 salt *(iOS 10.2+ only)*
 
 
 ## Requirements
